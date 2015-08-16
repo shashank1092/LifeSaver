@@ -6,11 +6,9 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-<<<<<<< HEAD
+
         android:targetSdkVersion="22" />
-=======
-        android:targetSdkVersion="21" />
->>>>>>> origin/master
+
 
     <application
         android:allowBackup="true"

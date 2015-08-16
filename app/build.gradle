@@ -1,21 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-<<<<<<< HEAD
+
     compileSdkVersion 22
-=======
-    compileSdkVersion 21
->>>>>>> origin/master
     buildToolsVersion "22.0.1"
 
     defaultConfig {
         applicationId "com.example.lifesaver"
         minSdkVersion 8
-<<<<<<< HEAD
         targetSdkVersion 22
-=======
-        targetSdkVersion 21
->>>>>>> origin/master
+
     }
 
     buildTypes {
@@ -27,8 +21,5 @@ android {
 }
 
 dependencies {
-<<<<<<< HEAD
-=======
-    compile 'com.android.support:support-v4:22.+'
->>>>>>> origin/master
+
 }
