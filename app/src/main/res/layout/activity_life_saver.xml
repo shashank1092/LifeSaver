@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LifeSaver"
+    android:background="@drawable/pic14" >
+    <TextView
+        android:id="@+id/tv_login_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registered Users"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+    <EditText
+        android:id="@+id/et_username_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="User Name"
+        android:layout_marginTop="10dp">
+
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/et_password_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btn_login_main"
+        android:layout_width="150dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_height="60dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="right"
+        android:textColor="#009aff"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="50dp"
+        android:textStyle="normal"
+        />
+    <Button
+        android:id="@+id/btn_register_main"
+
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="registration"/>
+
+
+</LinearLayout>
+
