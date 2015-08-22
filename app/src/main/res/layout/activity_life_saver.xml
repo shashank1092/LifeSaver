@@ -42,7 +42,7 @@
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:layout_height="60dp"
-
+        android:onClick=""
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"/>
 
@@ -73,7 +73,7 @@
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
-        android:onClick="registration"/>
+        android:onClick="Registration"/>
 
 
 </LinearLayout>

@@ -10,7 +10,7 @@ import android.content.Intent;
 
 public class LifeSaver extends Activity {
 	EditText username,password;
-	Button btnlogin,btnregister;
+	Button btn_login,btn_register;
 	 
 	  @Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -19,9 +19,9 @@ public class LifeSaver extends Activity {
 		setContentView(R.layout.activity_life_saver);
 		username=(EditText)findViewById(R.id.et_username_main);
 		password=(EditText)findViewById(R.id.et_password_main);
-		btnlogin=(Button)findViewById(R.id.btn_login_main);
-		btnregister=(Button)findViewById(R.id.btn_register_main);
-		
+		btn_login=(Button)findViewById(R.id.btn_login_main);
+		btn_register=(Button)findViewById(R.id.btn_register_main);
+
 		
 	}
 	  @Override
@@ -32,5 +32,8 @@ public class LifeSaver extends Activity {
 	  public void Registration(View v) {
 		Intent  i=new Intent(LifeSaver.this,Registration.class);
 		startActivity(i);
+	}
+	public void Login(View v){
+		//Intent j=new Intent(LifeSaver.this,Login.class);
 	}
 }
